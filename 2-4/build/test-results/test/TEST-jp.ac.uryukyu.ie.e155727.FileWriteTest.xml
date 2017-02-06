@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jp.ac.uryukyu.ie.e155727.FileWriteTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-15T04:02:28" hostname="Shingo-no-MacBook-Pro.local" time="0.002">
+  <properties/>
+  <testcase name="getOpts" classname="jp.ac.uryukyu.ie.e155727.FileWriteTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
