@@ -42,8 +42,9 @@ Current executable set to 'write' (x86_64).
 Breakpoint 1: where = write`f + 16 at write.c:29, address = 0x0000000100000f30
 ```
 
+**run**をした際に，Process 97127 stoppedってなってれば正しくbreakpointが設定されているはず．
+
 Breakpointが設定されていればOK．
-runをした際に，Process 97127 stoppedってなってれば正しくbreakpointが設定されているはず．
 
 次に(3)だが，先生のところはframe upだがlldbでは
 ```
@@ -115,6 +116,10 @@ gdbの場合
 > http://qiita.com/melos/items/624f5fdc1d05c83a6e5e
 
 この2つをみてgdbを使えるようにすること．taskkillする場合には```sudo pkill```コマンド使っても良いかも．
+
+これだけではなぜかelcapitanとSierraでは動かないみたいです．調べてみるとリカバリーモードでしか変更ができないところがあるみたい．
+
+というわけでリカバリモードを起動．起動方法は再起動時にcommand+Rを押しながら．
 
 というわけでまずは実行
 
